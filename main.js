@@ -74,32 +74,32 @@
 // }
 
 
-const myFunction = () => {
-    var elem = document.getElementById("chooseMe")
-    var fortuneNum = elem.options[elem.selectedIndex].value
-    var fortuneMessage
-    console.log(fortuneMessage)
+// const myFunction = () => {
+//     var elem = document.getElementById("chooseMe")
+//     var fortuneNum = elem.options[elem.selectedIndex].value
+//     var fortuneMessage
+//     console.log(fortuneMessage)
 
-    switch (Number(fortuneNum)) {
-        case 1:
-        case 6:
-            fortuneMessage = "You will inherit a fortune"
-            break
-        case 2:
-        case 7:
-            fortuneMessage = "You will win nothing"
-            break
-        case 3:
-            fortuneMessage = "You will become sad"
-            break
-        case 4:
-        case 8:
-            fortuneMessage = "Aliens will arive for you shortly"
-            break
+//     switch (Number(fortuneNum)) {
+//         case 1:
+//         case 6:
+//             fortuneMessage = "You will inherit a fortune"
+//             break
+//         case 2:
+//         case 7:
+//             fortuneMessage = "You will win nothing"
+//             break
+//         case 3:
+//             fortuneMessage = "You will become sad"
+//             break
+//         case 4:
+//         case 8:
+//             fortuneMessage = "Aliens will arive for you shortly"
+//             break
         
-        default:
-            fortuneMessage = "Nothing is real"
-    }
+//         default:
+//             fortuneMessage = "Nothing is real"
+//     }
 
-    document.getElementById('feedback').innerHTML = fortuneMessage
-}
+//     document.getElementById('feedback').innerHTML = fortuneMessage
+// }
